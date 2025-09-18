@@ -38,24 +38,11 @@ clean:
 
 fclean: clean
 	@rm -f $(NAME)
-	@echo "\n\033[31mDeleting EVERYTHING! ⌐(ಠ۾ಠ)¬\n"
+	@echo "\n\033[31mDeleting EVERYTHING!"
 
 re: fclean all
 
 %.o: %.c
 	@$(CC) $(CFLAGS) -c $< -o $@
-
-party:
-	@printf "\033c"
-	@echo "\n\033[35m♪┏(・o･)┛♪"
-	@sleep 1
-	@printf "\033c"
-	@echo "\033[1;33m♪┗(・o･)┓♪"
-	@sleep 1
-	@printf "\033c"
-	@echo "\n\033[36m♪┏(・o･)┛♪"
-	@sleep 1
-	@printf "\033c"
-	@echo "\033[34m♪┗(・o･)┓♪\n"
 
 .PHONY: all clean fclean re party
