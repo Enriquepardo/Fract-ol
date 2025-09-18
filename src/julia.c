@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   julia.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beade-va <beade-va@student.42.madrid>      +#+  +:+       +#+        */
+/*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 13:07:25 by beade-va          #+#    #+#             */
-/*   Updated: 2025/07/28 11:49:57 by beade-va         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:47 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 int	julia(t_complex point, t_complex constant, int max_iter)
 {

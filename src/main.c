@@ -6,11 +6,11 @@
 /*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 13:27:22 by beade-va          #+#    #+#             */
-/*   Updated: 2025/08/05 01:43:42 by enpardo-         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:49 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 void	print_error(void)
 {

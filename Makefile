@@ -9,15 +9,9 @@ MLX_DIR		= minilibx-linux
 MLX			= $(MLX_DIR)/libmlx.a
 MLX_FLAGS	= -L$(MLX_DIR) -lmlx -lX11 -lXext -lm -lbsd
 
-SRC = \
-	main.c \
-	mandelbrot.c \
-	julia.c \
-	draw.c \
-	map.c \
-	utils.c \
-	fractol.c \
-	hooks.c
+SRC = $(SRC_DIR)/main.c $(SRC_DIR)/mandelbrot.c $(SRC_DIR)/julia.c \
+      $(SRC_DIR)/draw.c $(SRC_DIR)/map.c $(SRC_DIR)/utils.c \
+      $(SRC_DIR)/fractol.c $(SRC_DIR)/hooks.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -25,7 +19,7 @@ all: $(MLX) $(NAME)
 
 $(MLX):
 	@echo "\033[36m--> compiling MiniLibX...\033[0m"
-	@$(MAKE) -C $(MLX_DIR) all
+	@$(MAKE) -C $(MLX_DIR) all 
 
 
 $(NAME): $(OBJ)
@@ -45,4 +39,4 @@ re: fclean all
 %.o: %.c
 	@$(CC) $(CFLAGS) -c $< -o $@
 
-.PHONY: all clean fclean re party
+.PHONY: all clean fclean re

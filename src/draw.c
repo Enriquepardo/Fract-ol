@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   draw.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beade-va <beade-va@student.42.madrid>      +#+  +:+       +#+        */
+/*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/13 22:23:42 by beade-va          #+#    #+#             */
-/*   Updated: 2025/07/28 12:13:06 by beade-va         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:37 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 void	draw_my_pixel(t_fractal *fractal, int x, int y, int color)
 {

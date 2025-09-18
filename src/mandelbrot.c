@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   mandelbrot.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beade-va <beade-va@student.42.madrid>      +#+  +:+       +#+        */
+/*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/11 19:24:16 by beade-va          #+#    #+#             */
-/*   Updated: 2025/07/27 21:08:09 by beade-va         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:51 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 int	mandelbrot(double real, double imag, int max_iter)
 {

@@ -6,7 +6,7 @@
 /*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/09 13:20:48 by beade-va          #+#    #+#             */
-/*   Updated: 2025/08/05 01:46:19 by enpardo-         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:15:31 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@
 # define ZOOM_IN 4
 # define ZOOM_OUT 5
 
-# include "minilibx-linux/mlx.h"
+# include "../minilibx-linux/mlx.h"
 # include <stdbool.h>
 # include <stdint.h>
 # include <stdlib.h>

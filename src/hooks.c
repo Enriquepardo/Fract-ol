@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   hooks.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beade-va <beade-va@student.42.madrid>      +#+  +:+       +#+        */
+/*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 12:14:45 by beade-va          #+#    #+#             */
-/*   Updated: 2025/07/30 23:02:26 by beade-va         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:45 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 int	close_window(t_fractal *fractal)
 {

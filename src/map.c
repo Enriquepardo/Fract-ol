@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   map.c                                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: beade-va <beade-va@student.42.madrid>      +#+  +:+       +#+        */
+/*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/14 13:13:45 by beade-va          #+#    #+#             */
-/*   Updated: 2025/07/28 11:38:01 by beade-va         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:53 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 double	map_fractal(int pixel, int max_pixel, t_viewport vp)
 {

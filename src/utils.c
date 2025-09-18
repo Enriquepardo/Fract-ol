@@ -6,11 +6,11 @@
 /*   By: enpardo- <enpardo-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/17 19:26:36 by beade-va          #+#    #+#             */
-/*   Updated: 2025/08/05 01:41:03 by enpardo-         ###   ########.fr       */
+/*   Updated: 2025/09/18 12:08:55 by enpardo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fractol.h"
+#include "../inc/fractol.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
